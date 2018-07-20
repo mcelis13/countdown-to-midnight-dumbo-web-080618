@@ -13,5 +13,6 @@ def countdown_with_sleep
   loop do
     sleep(1)
     break if counter == 5
+    counter += 1
   end
 end
