@@ -9,7 +9,9 @@ def countdown (number)
 end
 
 def countdown_with_sleep
+  counter = 0
   loop do
     sleep(1)
+    break if counter == 5
   end
 end
