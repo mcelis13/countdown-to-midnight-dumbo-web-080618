@@ -16,4 +16,5 @@ def countdown_with_sleep
     counter += 1
   end
 end
+
 countdown_with_sleep
